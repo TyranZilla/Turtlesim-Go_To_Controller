@@ -1,0 +1,4 @@
+<launch>
+    <rosparam command="load" file="$(find package1)/config/my_param.yaml" />
+    <node pkg="package1" type="turtle_code.py" name="turtle_code" output="screen"></node>
+</launch>
